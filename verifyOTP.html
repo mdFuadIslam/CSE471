@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify OTP</title>
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/signUpstyle.css">
+    <style>
+        .center {
+        margin: auto;
+        height: 50%;
+        width: 50%;
+        padding: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+    <form method="POST" class="container" action="verifyOTP.php">
+        <div class="form-textbox">
+            <label for="Text">Enter OTP</label>
+            <input type="text" name="otp" id="otp" />
+        </div>
+        <div class="form-textbox">
+            <input type="submit" name="submit" id="submit" class="submit" value="Verify" />
+        </div>
+    </form>
+    </div>
+</body>
+</html>
